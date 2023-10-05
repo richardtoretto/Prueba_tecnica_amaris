@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Datatable";
+}
+
+<div>
+
+    <div class="row col-12">
+
+        <div class="col">
+            <button class="btn btn-primary" onclick="refrescar()">Consultar Api Employees</button>
+        </div>
+
+
+            <img id="load" src="" width:50% alt="load">   
+
+    </div>
+
+ 
+    <br />
+    <br />
+
+    <!--DataTabla de consulta-->
+    <div id="divtablacarga" class="container table-responsive"></div>
+ 
+
+</div>
+
+
+
+
+
+<script src="~/js/Employee_datatable.js"></script>
+
+<script>
+
+    function refrescar() {
+        location.reload();
+    }
+
+</script>
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Prueba_tecnica_amaris.props" />
+</Project>
